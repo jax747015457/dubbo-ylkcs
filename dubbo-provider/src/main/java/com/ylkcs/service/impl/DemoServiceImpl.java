@@ -14,6 +14,7 @@ import java.util.logging.Logger;
 @Service(version = "${demo.service.version}")
 public class DemoServiceImpl implements DemoService {
 
+    //分支标记
     @Override
     public String sayHello(String name) {
         return "Hello, " + name + " (from Spring Boot)";
